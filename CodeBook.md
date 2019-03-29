@@ -1,7 +1,5 @@
-These signals were used to estimate variables of the feature vector for each pattern:  
-
-=========================================================================
 ## Measurements
+===============
 * tBodyAcc-XYZ
 * tGravityAcc-XYZ
 * tBodyAccJerk-XYZ
@@ -42,7 +40,7 @@ The set of variables that were estimated from these signals are:
 * angle(): Angle between to vectors.
 
 ## Additional vectors obtained by averaging the signals in a signal window sample. 
-==================================================================================
+===============================================================================
 * gravityMean
 * tBodyAccMean
 * tBodyAccJerkMean
@@ -54,6 +52,7 @@ The set of variables that were estimated from these signals are:
 
 ## Activity Labels
 ==================
+
 1 WALKING
 2 WALKING_UPSTAIRS
 3 WALKING_DOWNSTAIRS
