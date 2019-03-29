@@ -1,5 +1,5 @@
 These signals were used to estimate variables of the feature vector for each pattern:  
-'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
 =========================================================================
 ## Measurements
 * tBodyAcc-XYZ
@@ -19,6 +19,7 @@ These signals were used to estimate variables of the feature vector for each pat
 * fBodyAccJerkMag
 * fBodyGyroMag
 * fBodyGyroJerkMag
+##'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 The set of variables that were estimated from these signals are: 
 
@@ -40,10 +41,22 @@ The set of variables that were estimated from these signals are:
 * bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
 * angle(): Angle between to vectors.
 
-Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
-======================================================================================================================
+## Additional vectors obtained by averaging the signals in a signal window sample. 
+==================================================================================
 * gravityMean
 * tBodyAccMean
 * tBodyAccJerkMean
 * tBodyGyroMean
 * tBodyGyroJerkMean
+##These are used on the angle() variable:
+
+
+
+## Activity Labels
+==================
+1 WALKING
+2 WALKING_UPSTAIRS
+3 WALKING_DOWNSTAIRS
+4 SITTING
+5 STANDING
+6 LAYING
