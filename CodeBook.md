@@ -1,5 +1,5 @@
 ## Measurements
-===============
+
 * tBodyAcc-XYZ
 * tGravityAcc-XYZ
 * tBodyAccJerk-XYZ
@@ -40,7 +40,7 @@ The set of variables that were estimated from these signals are:
 * angle(): Angle between to vectors.
 
 ## Additional vectors obtained by averaging the signals in a signal window sample. 
-===============================================================================
+
 * gravityMean
 * tBodyAccMean
 * tBodyAccJerkMean
@@ -51,11 +51,10 @@ The set of variables that were estimated from these signals are:
 
 
 ## Activity Labels
-==================
 
-1 WALKING
-2 WALKING_UPSTAIRS
-3 WALKING_DOWNSTAIRS
-4 SITTING
-5 STANDING
-6 LAYING
+* WALKING
+* WALKING_UPSTAIRS
+* WALKING_DOWNSTAIRS
+* SITTING
+* STANDING
+* LAYING
